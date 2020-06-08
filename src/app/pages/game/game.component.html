@@ -1,0 +1,22 @@
+<div class="layout">
+    <h1 class="text-center py-3">Play The Game 🎉 </h1>
+    <div class="col text-center">
+        <img src="https://images.vexels.com/media/users/3/153199/isolated/preview/c0facb164c02a5815d7efea4eb898a98-keyboard-arrow-keys-stroke-icon-by-vexels.png" 
+        alt="arrowIcon" width="120px" class="mr-2 mb-2">
+    </div>
+    <div class="game-layout">
+        <div class="wrapper">
+        </div>
+        <p class="pt-3">
+            Total moves: {{stepsCount}}
+        </p>
+        <p>
+            Fruit Consumed: {{fruitConsumed}}
+        </p>
+    </div>
+    <div class="col text-center">
+        <h1 class="text-center" *ngIf="fruitConsumed === totalFruits?.length">Hurry !, You successfully completed 🎉</h1>
+        <button type="text" *ngIf="fruitConsumed === totalFruits?.length" class="btn m-2" (click)="play()">Play Again</button>
+        <button type="text" *ngIf="fruitConsumed === totalFruits?.length" class="btn m-2" routerLink="/home">HOME</button>
+    </div>
+</div>

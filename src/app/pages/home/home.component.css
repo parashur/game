@@ -1,0 +1,33 @@
+.w-100 {
+    width: 100%;
+    text-align: center;
+}
+
+.logoGame {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.fox,
+.fruit {
+    font-size: 10vw;
+}
+
+.row {
+    width: 100%;
+    display: block;
+}
+
+.customInput {
+    padding: 0.5rem 1rem;
+    width: 10vw;
+    margin: 1rem;
+}
+
+@media only screen and (max-width:768px) {
+    .customInput {
+        padding: 0.5rem 1rem;
+        width: 20vw;
+        margin: 1rem;
+    }
+}
