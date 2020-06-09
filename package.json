@@ -22,7 +22,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "prod": "ng build --prod --base-href='https://parashur.github.io/game/'"
+    "prod": "ng build --prod --base-href=https://parashur.github.io/game/"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.4",

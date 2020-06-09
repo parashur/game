@@ -15,6 +15,10 @@ const routes = [
     {
         path: 'game',
         component: GameComponent
+    },
+    {
+        path:'**',
+        component:HomeComponent
     }
 ];
 @NgModule({
