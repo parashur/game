@@ -4,6 +4,7 @@
     grid-template-rows: repeat(5, 50px);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    overflow: scroll;
     background: white;
 }
 
@@ -23,7 +24,6 @@
 
 .layout {
     height: 100vh;
-    overflow: hidden !important;
 }
 
 .text-center {

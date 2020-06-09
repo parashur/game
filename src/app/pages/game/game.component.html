@@ -1,8 +1,8 @@
 <div class="layout">
     <h1 class="text-center py-3">Play The Game 🎉 </h1>
     <div class="col text-center" *ngIf="!isMobile">
-        <img src="https://images.vexels.com/media/users/3/153199/isolated/preview/c0facb164c02a5815d7efea4eb898a98-keyboard-arrow-keys-stroke-icon-by-vexels.png" 
-        alt="arrowIcon" width="120px" class="mr-2 mb-2">
+        <img src="https://images.vexels.com/media/users/3/153199/isolated/preview/c0facb164c02a5815d7efea4eb898a98-keyboard-arrow-keys-stroke-icon-by-vexels.png"
+            alt="arrowIcon" width="120px" class="mr-2 mb-2">
     </div>
     <div class="game-layout">
         <div class="wrapper">
@@ -15,12 +15,15 @@
         </p>
     </div>
     <div class="col text-center p-0">
-        <h3 class="text-center" *ngIf="fruitConsumed === totalFruits?.length">Hurry !, You successfully completed 🎉</h3>
-        <button type="text" *ngIf="fruitConsumed === totalFruits?.length" class="btn m-2" (click)="play()">Play Again</button>
-        <button type="text" *ngIf="fruitConsumed === totalFruits?.length" class="btn m-2" routerLink="/home">HOME</button>
+        <h3 class="text-center" *ngIf="fruitConsumed === totalFruits?.length">Hurry !, You successfully completed 🎉
+        </h3>
+        <button type="text" *ngIf="fruitConsumed === totalFruits?.length" class="btn m-2" (click)="play()">Play
+            Again</button>
+        <button type="text" *ngIf="fruitConsumed === totalFruits?.length" class="btn m-2"
+            routerLink="/home">HOME</button>
     </div>
     <div class="w-100 d-flex justify-content-center">
-        <div class="keyboard" *ngIf="isMobile">
+        <div class="keyboard" [style.position]="fruitConsumed === totalFruits?.length ? 'relative' :''" *ngIf="isMobile">
             <div class="top-arrow" (click)="keyboardAction('top')">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
