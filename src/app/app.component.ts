@@ -8,5 +8,6 @@ import { Attribute } from "@angular/compiler";
 })
 export class AppComponent {
   name = "Angular " + VERSION.major;
-  
+  constructor() {
+  }
 }

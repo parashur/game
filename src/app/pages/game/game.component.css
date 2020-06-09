@@ -30,6 +30,78 @@
 }
 
 p{
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 600;
+}
+
+
+.keyboard {
+    width: 230px;
+    background: transparent;
+    height: 133px;
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+}
+
+.top-arrow {
+    width: 50px;
+    height: 45px;
+    background: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -13%);
+    line-height: 42px;
+    vertical-align: middle;
+    border-radius: 4px;
+    text-align:center;
+    box-shadow: -1px 1px 2px 0px #d7d7d7;
+}
+
+.left-arrow {
+    width: 48px;
+    height: 44px;
+    background: white;
+    position: relative;
+    left: 20%;
+    transform: translate(-50%, -182%);
+    line-height: 42px;
+    vertical-align: middle;
+    border-radius: 4px;
+    text-align:center;
+    box-shadow: -1px 1px 2px 0px #d7d7d7;
+}
+
+.right-arrow {
+    width: 48px;
+    height: 44px;
+    background: white;
+    position: relative;
+    left: 80%;
+    transform: translate(-50%, 18%);
+    line-height: 42px;
+    vertical-align: middle;
+    border-radius: 4px;
+    text-align:center;
+    box-shadow: -1px 1px 2px 0px #d7d7d7;
+}
+
+.down-arrow {
+    width: 48px;
+    height: 44px;
+    background: white;
+    position: relative;
+    transform: translate(-50%, -82%);
+    left: 50%;
+    line-height: 42px;
+    vertical-align: middle;
+    border-radius: 4px;
+    text-align:center;
+    box-shadow: -1px 1px 2px 0px #d7d7d7;
+}
+
+@media only screen  and ( max-width:378px) {
+    h1{
+        font-size: x-large;
+    }
 }
