@@ -4,6 +4,7 @@
     grid-template-rows: repeat(5, 50px);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    background: white;
 }
 
 ::ng-deep.box {
@@ -29,7 +30,7 @@
     text-align: center;
 }
 
-p{
+p {
     font-size: x-large;
     font-weight: 600;
 }
@@ -54,7 +55,7 @@ p{
     line-height: 42px;
     vertical-align: middle;
     border-radius: 4px;
-    text-align:center;
+    text-align: center;
     box-shadow: -1px 1px 2px 0px #d7d7d7;
 }
 
@@ -68,7 +69,7 @@ p{
     line-height: 42px;
     vertical-align: middle;
     border-radius: 4px;
-    text-align:center;
+    text-align: center;
     box-shadow: -1px 1px 2px 0px #d7d7d7;
 }
 
@@ -82,7 +83,7 @@ p{
     line-height: 42px;
     vertical-align: middle;
     border-radius: 4px;
-    text-align:center;
+    text-align: center;
     box-shadow: -1px 1px 2px 0px #d7d7d7;
 }
 
@@ -96,12 +97,23 @@ p{
     line-height: 42px;
     vertical-align: middle;
     border-radius: 4px;
-    text-align:center;
+    text-align: center;
     box-shadow: -1px 1px 2px 0px #d7d7d7;
 }
 
-@media only screen  and ( max-width:378px) {
-    h1{
+@media only screen and (max-width:578px) {
+    h1 {
         font-size: x-large;
+    }
+
+    p {
+        font-size: medium;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    h3 {
+        font-size: medium;
     }
 }

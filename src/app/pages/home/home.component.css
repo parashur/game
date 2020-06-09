@@ -4,13 +4,25 @@
 }
 
 .logoGame {
-    padding-top: 5vw;
+    padding-top:73px;
     padding-bottom: 5vw;
+    background-color: #06ad75;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    line-height: 60px;
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+    box-shadow: 0 0 0 10px #aae3d0;
 }
 
 .fox,
 .fruit {
-    font-size: 10vw;
+    font-size: 70px;
+}
+
+.fruit {
+    color: #ffffff;
 }
 
 .row {
@@ -22,6 +34,14 @@
     padding: 0.5rem 1rem;
     width: 10vw;
     margin: 1rem;
+    border-radius: 9px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 2px 2px 3px 0px #63636375;
+    text-align: center;
+}
+
+.customInput:focus {
+    outline: none;
 }
 
 @media only screen and (max-width:768px) {
@@ -34,14 +54,16 @@
 
 
 @media only screen and (max-width:578px) {
+
+    .fox,
+    .fruit {
+        font-size: 13vw;
+    }
+
     h1 {
         font-size: large;
         padding: 2rem !important;
         font-weight: 700;
-    }
-
-    .fruit {
-        color: #ffffff;
     }
 
     .logoGame {
@@ -51,7 +73,7 @@
         border-radius: 50%;
         height: 120px;
         width: 120px;
-        line-height: 80px;
+        line-height: 86px;
         text-align: center;
         margin: auto;
         margin-bottom: 2rem;
