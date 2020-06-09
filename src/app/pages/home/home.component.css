@@ -33,7 +33,7 @@
 }
 
 
-@media only screen and (max-width:378px) {
+@media only screen and (max-width:578px) {
     h1 {
         font-size: large;
         padding: 2rem !important;
@@ -49,9 +49,9 @@
         padding-bottom: 5vw;
         background-color: #06ad75;
         border-radius: 50%;
-        height: 90px;
-        width: 90px;
-        line-height: 62px;
+        height: 120px;
+        width: 120px;
+        line-height: 80px;
         text-align: center;
         margin: auto;
         margin-bottom: 2rem;
