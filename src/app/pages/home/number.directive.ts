@@ -9,7 +9,7 @@ export class SingleDigitOnlyDirective {
 
     @HostListener('input', ['$event']) onInputChange(event) {
         const initalValue = this.el.nativeElement.value;
-        this.el.nativeElement.value = initalValue.replace(/[^0-9]*/g, '');
+        this.el.nativeElement.value = initalValue.replace(/[^0-7]*/g, '');
         if (initalValue !== this.el.nativeElement.value) {
             event.stopPropagation();
         }

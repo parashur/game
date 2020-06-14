@@ -4,7 +4,7 @@
     grid-template-rows: repeat(5, 50px);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    overflow: scroll;
+    /* overflow: scroll; */
     background: white;
 }
 
@@ -116,4 +116,14 @@ p {
     h3 {
         font-size: medium;
     }
+}
+
+.gameOver {
+    color: red;
+    font-size: xxx-large;
+}
+
+button:focus{
+    outline: none;
+    box-shadow: none;
 }
